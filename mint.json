@@ -16,10 +16,7 @@
     }
   },
   "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
+    
   ],
   "topbarCtaButton": {
     "name": "Contact",
