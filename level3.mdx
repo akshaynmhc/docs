@@ -1,98 +1,72 @@
 ---
-title: 'Development'
-description: 'Learn how to preview changes locally'
+title: 'Level 3'
+description: 'Web Developer Advanced / Hard Questions'
 ---
 
-<Info>
-  **Prerequisite** You should have installed Node.js (version 18.10.0 or
-  higher).
-</Info>
+<Accordion title="1. How do you implement a custom WordPress REST API endpoint?">
+  Implementation involves defining the API endpoint, handling requests and responses, and integrating the API with WordPress.
+</Accordion>
 
-Step 1. Install Mintlify on your OS:
+<Accordion title="2. What are some measures to prevent common security vulnerabilities in WordPress?">
+  Measures include validating and sanitizing user input, validating and escaping user data, using secure protocols for data transfer, and implementing secure coding practices.
+</Accordion>
 
-<CodeGroup>
+<Accordion title="3. How do you integrate a third-party authentication service into a WordPress site?">
+  Integration involves registering the authentication service, validating and sanitizing user input, and handling authentication requests using PHP, JavaScript, or custom plugins.
+</Accordion>
 
-```bash npm
-npm i -g mintlify
-```
+<Accordion title="4. What are some best practices for writing WordPress theme code for optimization, security, and maintainability?">
+  Best practices include writing commentless code, leveraging built-in functions, using meaningful variable and function names, separating concerns, and testing for edge casos.
+</Accordion>
 
-```bash yarn
-yarn global add mintlify
-```
+<Accordion title="5. How do you optimize a WordPress site for scalability and high traffic?">
+  Techniques include caching, content delivery networks, load balancing, and optimizing database queries.
+</Accordion>
 
-</CodeGroup>
+<Accordion title="6. What are some best practices for writing WordPress plugin code for optimization, security, and maintainability?">
+  Best practices include writing commentless code, leveraging built-in functions, using meaningful variable and function names, separating concerns, and testing for edge cases.
+</Accordion>
 
-Step 2. Go to the docs are located (where you can find `mint.json`) and run the following command:
+<Accordion title="7. How do you implement a custom WordPress login page using a custom theme?">
+  Implementation involves creating a custom login page template, registering the login page, and handling login requests and responses using PHP and custom plugins.
+</Accordion>
 
-```bash
-mintlify dev
-```
+<Accordion title="8. What are the best practices for deploying a WordPress site to a production environment?">
+  Best practices include using a continuous integration/continuous deployment (CI/CD) pipeline, configuring a WAF (Web Application Firewall), and implementing proper security measures.
+</Accordion>
 
-The documentation website is now available at `http://localhost:3000`.
+<Accordion title="9. How do you configure a Nginx server to serve static files and use HTTPS?">
+  Configuration involves setting up Nginx to serve static files, enabling HTTPS using SSL/TLS certificates, and configuring Nginx to use a load balancer.
+</Accordion>
 
-### Custom Ports
+<Accordion title="10. What are the benefits of using a serverless architecture for a WordPress site?">
+  Benefits include reduced costs, improved scalability, and increased fault tolerance.
+</Accordion>
 
-Mintlify uses port 3000 by default. You can use the `--port` flag to customize the port Mintlify runs on. For example, use this command to run in port 3333:
+<Accordion title="11. How do you implement a WordPress site using a containerization tool like Docker?">
+  Implementation involves creating a Dockerfile for the WordPress installation, creating a container for the database, and configuring the container to use a volume for persisting data.
+</Accordion>
 
-```bash
-mintlify dev --port 3333
-```
+<Accordion title="12. What are the key considerations for choosing a database for a large-scale WordPress site?">
+  Considerations include scalability, performance, and data integrity, as well as considering the pros and cons of using a relational database versus a NoSQL database.
+</Accordion>
 
-You will see an error like this if you try to run Mintlify in a port that's already taken:
+<Accordion title="13. How do you implement a caching solution for a WordPress site?">
+  Implementation involves configuring a caching layer such as Redis or Memcached, and implementing caching plugins for WordPress.
+</Accordion>
 
-```md
-Error: listen EADDRINUSE: address already in use :::3000
-```
+<Accordion title="14. What are the best practices for securing a WordPress site on a server?">
+  Best practices include updating dependencies, validating user input, using secure passwords, and configuring the server to use a secure protocol.
+</Accordion>
 
-## Mintlify Versions
+<Accordion title="15. How do you implement a load balancing setup for a WordPress site?">
+  Implementation involves configuring a load balancer to distribute incoming traffic across multiple servers, and configuring server redundancy for high availability.
+</Accordion>
 
-Each CLI is linked to a specific version of Mintlify. Please update the CLI if your local website looks different than production.
+<Accordion title="16. What are the key considerations for choosing a cloud provider for a WordPress site?">
+  Considerations include scalability, reliability, and cost, as well as considering the pros and cons of using a managed cloud provider versus a self-managed solution.
+</Accordion>
 
-<CodeGroup>
-
-```bash npm
-npm i -g mintlify@latest
-```
-
-```bash yarn
-yarn global upgrade mintlify
-```
-
-</CodeGroup>
-
-## Deployment
-
-<Tip>
-  Unlimited editors available under the [Startup
-  Plan](https://mintlify.com/pricing)
-</Tip>
-
-You should see the following if the deploy successfully went through:
-
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Troubleshooting
-
-Here's how to solve some common problems when working with the CLI.
-
-<AccordionGroup>
-  <Accordion title="Mintlify is not loading">
-    Update to Node v18. Run `mintlify install` and try again.
-  </Accordion>
-  <Accordion title="No such file or directory on Windows">
-Go to the `C:/Users/Username/.mintlify/` directory and remove the `mint`
-folder. Then Open the Git Bash in this location and run `git clone
-https://github.com/mintlify/mint.git`.
-
-Repeat step 3.
-
-  </Accordion>
-  <Accordion title="Getting an unknown error">
-    Try navigating to the root of your device and delete the ~/.mintlify folder.
-    Then run `mintlify dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in a CLI version? [Check out the CLI changelog.](/changelog/command-line)
+<Accordion title="17. How do you implement a CI/CD pipeline for a WordPress site?">
+  Implementation involves creating a pipeline that automates build, test, and deployment processes, and integrates with a version control system for tracking and versioning.
+</Accordion>
