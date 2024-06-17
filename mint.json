@@ -36,6 +36,11 @@
         "level2",
         "level3"
       ]
+    },
+    "group": "Performance",
+      "pages": [
+        "performance"
+      ]
     }
   ],
   "footerSocials": {
