@@ -34,12 +34,7 @@
       "pages": [
         "level1",
         "level2",
-        "level3"
-      ]
-    },
-    {
-    "group": "Performance",
-      "pages": [
+        "level3",
         "performance"
       ]
     }
