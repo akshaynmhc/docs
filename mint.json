@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "myheartcreative",
   "logo": {
-    "dark": "/logo/myheartcreative-TM-logo.webp",
-    "light": "/logo/myheartcreative-TM-logo.webp"
+    "dark": "/mhc-logo-tm.png",
+    "light": "/mhc-logo-tm.png"
   },
   "favicon": "/badge-logo-rescaled-2.webp",
   "colors": {
