@@ -1,0 +1,36 @@
+### Migrating a Website to a New Server
+
+#### Step 1: Create Domain in cPanel
+Create a domain for the website in cPanel.
+
+#### Step 2: Install WordPress using WP Toolkit
+Install WordPress using the WP Toolkit on cPanel. Make sure to copy the passwords of the installation.
+
+#### Step 3: Take Backup with ManageWP
+Take a backup of the website using ManageWP and name it "Migration".
+
+#### Step 4: Update Cloudflare A Record
+Go to Cloudflare and update the A record of the domain to the new server's IP address.
+
+#### Step 5: Install Worker Plugin and Connect to ManageWP
+Log in to the installed WordPress site and install the Worker plugin. Connect the plugin to ManageWP.
+
+#### Step 6: Restore Backup
+After reconnecting, click on the "Migration" backup and click on "Restore". Wait for the restore process to complete.
+
+#### Step 7: Delete Default Plugins and Themes
+Once the restore is complete, delete the default plugins and themes.
+
+#### Step 8: Install Litespeed Plugin
+Install the Litespeed plugin.
+
+#### Step 9: Configure and Download Litespeed Plugin
+Click on the "Configure" button and download the plugin. Continue with the installation.
+
+#### Step 10: Import Settings and Purge All
+After installing the Litespeed plugin, import the settings file in Presets and purge all.
+
+#### Final Check
+Check the website's settings -> site health -> info -> server to ensure it is using Litespeed.
+
+**Migration Complete!**
